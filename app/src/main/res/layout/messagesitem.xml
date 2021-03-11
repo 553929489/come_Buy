@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="15dp"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/message_background"
+    >
+    <com.example.comebuy.LayOut.OvalImageView
+        android:id="@+id/photo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shenv"
+        tools:ignore="MissingConstraints"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+            android:id="@+id/shopname"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="彪哥饺子铺" />
+        <TextView
+            android:id="@+id/time"
+            android:layout_marginRight="30dp"
+            android:textSize="10dp"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2020/12/31"
+            />
+        </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/final_message"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="20"
+        android:ellipsize="end"
+        android:maxEms="9"
+        android:maxLines="2"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

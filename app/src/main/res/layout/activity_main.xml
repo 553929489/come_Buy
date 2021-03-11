@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    <LinearLayout-->
+<!--        android:background="@color/colorTop"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="0.7"-->
+<!--        >-->
+<!--        <Button-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:id="@+id/button_position"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="@string/position"-->
+<!--            android:background="@drawable/position_button_shape"-->
+<!--            />-->
+<!--        <LinearLayout-->
+<!--            android:background="@drawable/find_button_shape"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="270dp"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@drawable/search"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/search"-->
+<!--                android:background="@color/tran"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"/>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/exchange"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1."
+        >
+<RadioGroup
+    android:id="@+id/bottom_button"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioButton
+        android:id="@+id/homepage"
+        android:checked="true"
+        android:text="@string/homepage"
+        android:gravity="center"
+        android:button="@null"
+        android:drawableTop="@drawable/homepage_size"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <RadioButton
+        android:id="@+id/message"
+        android:text="@string/message"
+        android:gravity="center"
+        android:button="@null"
+        android:drawableTop="@drawable/message_size"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        />
+    <RadioButton
+        android:text="@string/nousing"
+        android:gravity="center"
+        android:id="@+id/homepage_tow"
+        android:button="@null"
+        android:drawableTop="@drawable/package_size"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        />
+    <RadioButton
+        android:text="@string/my"
+        android:gravity="center"
+        android:id="@+id/me_tree"
+        android:button="@null"
+        android:drawableTop="@drawable/me_size"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        />
+
+</RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>

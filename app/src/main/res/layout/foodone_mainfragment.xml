@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/self_food"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+            <Button
+                android:id="@+id/testbutton_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显形" />
+            <Button
+                android:id="@+id/testbutton_hide"
+                android:layout_marginLeft="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="隐藏" />
+    </LinearLayout>
+            <com.example.comebuy.CustomView
+                android:id="@+id/customView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+</LinearLayout>

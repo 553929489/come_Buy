@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">come Buy</string>
+    <string name="position">武汉</string>
+    <string name="homepage">主页</string>
+    <string name="message">消息</string>
+    <string name="nousing">待收货</string>
+    <string name="my">我的</string>
+    <string name="message_title">消息</string>
+    <string name="test_message">的再次光临。</string>
+    <string name="AllOrder">全部</string>
+    <string name="ready_pay">代付款</string>
+    <string name="ready_get">待收货</string>
+    <string name="immediately_pay">立即支付</string>
+    <string name="phone_to_business">联系商家</string>
+    <string name="cancel">取消订单</string>
+</resources>

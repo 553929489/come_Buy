@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MianColor"
+    >
+    <RadioGroup
+        android:id="@+id/Top_order_title"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+        <RadioButton
+            android:id="@+id/all_order"
+            android:text="@string/AllOrder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:checked="true"
+            android:background="@drawable/order_background"
+            />
+        <RadioButton
+            android:id="@+id/ready_pay_order"
+            android:text="@string/ready_pay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/order_background"
+            />
+        <RadioButton
+            android:id="@+id/ready_get_order"
+            android:text="@string/ready_get"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:background="@drawable/order_background"
+            />
+    </RadioGroup>
+    <LinearLayout
+        android:id="@+id/order_exchange_fragment"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+</LinearLayout>
